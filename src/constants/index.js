@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    sass,
+    vue,
+    angular,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +49,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
@@ -54,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Problems Solver",
       icon: creator,
     },
   ];
@@ -105,12 +108,16 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "sass",
+      icon: sass,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "vue",
+      icon: vue,
+    },
+    {
+      name: "angular",
+      icon: angular,
     },
   ];
   
