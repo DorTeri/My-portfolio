@@ -8,6 +8,7 @@ import CanvasLoader from '../Loader'
 
 const Ball = (props) => {
 
+  const [decal] = useTexture([props.imgUrl])
   return (
     <div>Ball</div>
   )
