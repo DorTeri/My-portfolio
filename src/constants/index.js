@@ -26,6 +26,9 @@ import {
     sass,
     vue,
     angular,
+    someday,
+    appsus,
+    finance,
   } from "../assets";
   
   export const navLinks = [
@@ -205,12 +208,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Someday",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An end-to-end team managment app inspired by Monday.com , help teams and organizations with operational efficiency by tracking projects and workflows, visualizing data, and team collaboration.",
       tags: [
         {
-          name: "react",
+          name: "vue.js",
           color: "blue-text-gradient",
         },
         {
@@ -218,54 +221,57 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "sass",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
+          name: "node.js",
           color: "blue-text-gradient",
         },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: someday,
+      source_code_link: "https://github.com/DorTeri/Someday",
+      source_demo_link: "https://someday-com.onrender.com",
     },
     {
-      name: "Trip Guide",
+      name: "AppSus",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An all-in-one app including mail, notes and 2 book shops inspired by Gmail and Google Keep. This app built in 3 days, it can help you remember things by writing notes and even send them to the email.",
       tags: [
         {
-          name: "nextjs",
+          name: "vue.js",
           color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        },
+      ],
+      image: appsus,
+      source_code_link: "https://github.com/DorTeri/AppSus",
+      source_demo_link: "https://dorteri.github.io/AppSus/#/",
+    },
+    {
+      name: "Finance",
+      description:
+        "A Bitcoin app, my first app with React.js. With Finance you can send BTC to your contacts, deposit more money to your account, add more contacts to your contacts list and watch BTC statistics.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: finance,
+      source_code_link: "https://github.com/DorTeri/Finance",
+      source_demo_link: "https://dorteri.github.io/Finance/#/",
     },
   ];
   
