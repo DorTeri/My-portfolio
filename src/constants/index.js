@@ -29,6 +29,7 @@ import {
     someday,
     appsus,
     finance,
+    oneStyle,
   } from "../assets";
   
   export const navLinks = [
@@ -230,6 +231,32 @@ import {
         },
       ],
       image: someday,
+      source_code_link: "https://github.com/DorTeri/Someday",
+      source_demo_link: "https://someday-com.onrender.com",
+    },
+    {
+      name: "OneStyleIsrael",
+      description:
+        "A shoes store in development, built for a client. With OneStyleIsrael you can search for your next shoe, add it to your bag or to your favorites list and checkout with a credit card (will be able in production).",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sass",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "node.js",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: oneStyle,
       source_code_link: "https://github.com/DorTeri/Someday",
       source_demo_link: "https://someday-com.onrender.com",
     },

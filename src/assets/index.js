@@ -36,6 +36,7 @@ import tripguide from "./tripguide.png";
 import someday from './someday1.png';
 import appsus from './appSusImg.png';
 import finance from './finance.png'
+import oneStyle from './oneStyle.png'
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   demo,
   appsus,
   finance,
+  oneStyle,
 };
