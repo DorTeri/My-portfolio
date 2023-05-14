@@ -252,8 +252,8 @@ import {
         },
       ],
       image: oneStyle,
-      source_code_link: "https://github.com/DorTeri/Someday",
-      source_demo_link: "https://someday-com.onrender.com",
+      source_code_link: "https://github.com/DorTeri/OneStyleIsrael",
+      source_demo_link: "https://onestyleisrael.onrender.com/#/",
     },
     {
       name: "AppSus",
