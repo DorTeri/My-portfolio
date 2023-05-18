@@ -32,6 +32,7 @@ import someday from './someday1.png';
 import appsus from './appSusImg.png';
 import finance from './finance.png'
 import oneStyle from './oneStyle.png'
+import resume from './resume.pdf'
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   appsus,
   finance,
   oneStyle,
+  resume,
 };

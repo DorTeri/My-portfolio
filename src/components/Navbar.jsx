@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import { logo, menu, close, resume } from '../assets'
 
 const Navbar = () => {
 
@@ -25,6 +25,10 @@ const Navbar = () => {
             font-bold cursor-pointer'>Dor &nbsp;<span className='sm:block hidden'>| Tayari</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+          <a href={resume} download='Dor Tayari - resume' className='text-secondary hover:text-white text-[18px]
+              font-medium cursor-pointer`'>
+            CV
+          </a>
           {navLinks.map(link => (
             <li key={link.id}
               className={`${active === link.title ?
@@ -57,10 +61,14 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle)
                     setActive(link.title)
-                    }}>
+                  }}>
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <a href={resume} download='Dor Tayari - resume' className='text-secondary hover:text-white text-[18px]
+              font-medium cursor-pointer`'>
+                CV
+              </a>
             </ul>
           </div>
         </div>
