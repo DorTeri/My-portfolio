@@ -33,6 +33,7 @@ import appsus from './appSusImg.png';
 import finance from './finance.png'
 import oneStyle from './oneStyle.png'
 import resume from './resume.pdf'
+import jobsFinder from './JobsFinder.jpg'
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   finance,
   oneStyle,
   resume,
+  jobsFinder
 };

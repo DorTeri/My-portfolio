@@ -25,6 +25,7 @@ import {
     appsus,
     finance,
     oneStyle,
+    jobsFinder
   } from "../assets";
   
   export const navLinks = [
@@ -56,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Problems Solver",
+      title: "Mobile Developer",
       icon: creator,
     },
   ];
@@ -272,6 +273,28 @@ import {
       image: appsus,
       source_code_link: "https://github.com/DorTeri/AppSus",
       source_demo_link: "https://dorteri.github.io/AppSus/#/",
+    },
+    {
+      name: "JobsFinder",
+      description:
+        "A jobs app, my first app with React Native. With JobsFinder you can find the popular jobs, nearby jobs , search for what ever job you would like and to apply to each one of the jobs.",
+      tags: [
+        {
+          name: "react native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "expo",
+          color: "green-text-gradient",
+        },
+        {
+          name: "expo router",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobsFinder,
+      source_code_link: "https://github.com/DorTeri/JobsFinder",
+      source_demo_link: "https://github.com/DorTeri/JobsFinder",
     },
     {
       name: "Finance",
