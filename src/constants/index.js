@@ -25,7 +25,8 @@ import {
     appsus,
     finance,
     oneStyle,
-    jobsFinder
+    jobsFinder,
+    snapgram
   } from "../assets";
   
   export const navLinks = [
@@ -204,6 +205,32 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Snapgram",
+      description:
+        "A social media app as Instagram, where you can share your photos, like posts , save posts , search for posts on the explore and watch people profiles. Soon enough there will be stories and more.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "appwrite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: snapgram,
+      source_code_link: "https://github.com/DorTeri/Snapgram",
+      source_demo_link: "https://snapgram-zeta.vercel.app/",
+    },
     {
       name: "Someday",
       description:

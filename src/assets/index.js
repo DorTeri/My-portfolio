@@ -34,6 +34,7 @@ import finance from './finance.png'
 import oneStyle from './oneStyle.png'
 import resume from './resume.pdf'
 import jobsFinder from './JobsFinder.jpg'
+import snapgram from './company/snapgram.png'
 
 export {
   logo,
@@ -46,6 +47,7 @@ export {
   close,
   css,
   git,
+  snapgram,
   html,
   javascript,
   mongodb,
