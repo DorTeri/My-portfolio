@@ -215,7 +215,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "typescript",
+          name: "ts",
           color: "green-text-gradient",
         },
         {
