@@ -26,7 +26,8 @@ import {
     finance,
     oneStyle,
     jobsFinder,
-    snapgram
+    snapgram,
+    travelapp
   } from "../assets";
   
   export const navLinks = [
@@ -300,6 +301,28 @@ import {
       image: appsus,
       source_code_link: "https://github.com/DorTeri/AppSus",
       source_demo_link: "https://dorteri.github.io/AppSus/#/",
+    },
+    {
+      name: "TravelApp",
+      description:
+        "A landing page and call to actions for dwonloading a travel app for seeking journeys around the world.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: travelapp,
+      source_code_link: "https://github.com/DorTeri/TravelApp",
+      source_demo_link: "https://travel-app-inky-gamma.vercel.app/",
     },
     {
       name: "JobsFinder",

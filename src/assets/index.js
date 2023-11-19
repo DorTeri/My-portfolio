@@ -35,6 +35,7 @@ import oneStyle from './oneStyle.png'
 import resume from './resume.pdf'
 import jobsFinder from './JobsFinder.jpg'
 import snapgram from './snapgram.png'
+import travelapp from './travelapp.png'
 
 export {
   logo,
@@ -70,5 +71,6 @@ export {
   finance,
   oneStyle,
   resume,
-  jobsFinder
+  jobsFinder,
+  travelapp
 };
