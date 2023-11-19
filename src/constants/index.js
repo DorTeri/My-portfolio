@@ -305,7 +305,7 @@ import {
     {
       name: "TravelApp",
       description:
-        "A landing page and call to actions for dwonloading a travel app for seeking journeys around the world.",
+        "A landing page and call to actions for dwonloading a travel app for seeking journeys around the world. Built with next.js and tailwindcss pixel perfect responsive to mobile and desktop.",
       tags: [
         {
           name: "react.js",
