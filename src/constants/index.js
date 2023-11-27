@@ -210,7 +210,7 @@ import {
     {
       name: "AI-marketplace",
       description:
-        "A marketplace for selling AI images prompts. Artists, developers, and enthusiasts share a common passion for pushing the boundaries of what is possible and sell it on the market.",
+        "A marketplace for selling AI images prompts. Artists, developers, and enthusiasts share a common passion for pushing the boundaries of what is possible and sell it on the market and follow their sales.",
       tags: [
         {
           name: "next.js",
