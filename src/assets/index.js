@@ -36,7 +36,7 @@ import resume from './resume.pdf'
 import jobsFinder from './JobsFinder.jpg'
 import snapgram from './snapgram.png'
 import travelapp from './travelapp.png'
-import marketplace from './marketplace.png'
+import marketplace from './marketplace.jpg'
 
 export {
   logo,
