@@ -27,7 +27,8 @@ import {
     oneStyle,
     jobsFinder,
     snapgram,
-    travelapp
+    travelapp,
+    marketplace,
   } from "../assets";
   
   export const navLinks = [
@@ -206,6 +207,32 @@ import {
   ];
   
   const projects = [
+    {
+      name: "AI-marketplace",
+      description:
+        "A marketplace for selling AI images prompts. Artists, developers, and enthusiasts share a common passion for pushing the boundaries of what is possible and sell it on the market.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ts",
+          color: "green-text-gradient",
+        },
+        {
+          name: "prisma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: marketplace,
+      source_code_link: "https://github.com/DorTeri/AI-Marketplace",
+      source_demo_link: "https://ai-marketplace-neon.vercel.app/",
+    },
     {
       name: "Snapgram",
       description:
