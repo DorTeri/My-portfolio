@@ -231,7 +231,7 @@ import {
       ],
       image: marketplace,
       source_code_link: "https://github.com/DorTeri/AI-Marketplace",
-      source_demo_link: "https://ai-marketplace-neon.vercel.app/",
+      source_demo_link: "https://ai-marketplace-xi.vercel.app/",
     },
     {
       name: "Snapgram",
