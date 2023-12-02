@@ -25,7 +25,7 @@ const Navbar = () => {
             font-bold cursor-pointer'>Dor &nbsp;<span className='sm:block hidden'>| Tayari</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
-          <a href={resume} download='Dor Tayari - resume' className='text-secondary hover:text-white text-[18px]
+          <a href={resume} download='Dor Tayari - CV' className='text-secondary hover:text-white text-[18px]
               font-medium cursor-pointer`'>
             CV
           </a>

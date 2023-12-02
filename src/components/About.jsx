@@ -6,6 +6,8 @@ import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+import { resume } from '../assets'
+
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -54,6 +56,15 @@ const About = () => {
         problem-solving. I'm currently taking a course in DevOps at Udemy, always looking to increase my knowledge.
         Friendly and a good team worker.
       </motion.p>
+      <motion.a
+        href={resume}
+        download={"Dor Tayari - CV"}
+        variants={fadeIn('', '', 0, 1, 1)}
+        className='bg-white inline-block mt-4 text-black p-3 rounded-xl text-[17px] max-2-3xl 
+        leading-[30px]'
+      >
+        Download CV
+      </motion.a>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, idx) => (
