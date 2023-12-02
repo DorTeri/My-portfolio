@@ -51,7 +51,8 @@ const About = () => {
       >
         As a Full Stack Web Developer, I bring a wealth of experience in developing and implementing
         complex web applications. I am proficient in a variety of frameworks and a passion for
-        problem-solving.
+        problem-solving. I'm currently taking a course in DevOps at Udemy, always looking to increase my knowledge.
+        Friendly and a good team worker.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
