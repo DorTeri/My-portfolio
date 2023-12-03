@@ -86,10 +86,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -102,10 +102,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -118,10 +118,10 @@ import {
       name: "vue",
       icon: vue,
     },
-    {
-      name: "angular",
-      icon: angular,
-    },
+    // {
+    //   name: "angular",
+    //   icon: angular,
+    // },
   ];
   
   const experiences = [

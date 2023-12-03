@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
 import { ComputersCanvas } from './canvas'
+import profile from '../assets/linkedin-profile.jpeg'
 
 const Hero = () => {
   return (
@@ -22,7 +23,14 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
+
+      <div className='absolute xs:bottom-100 
+      bottom-32 w-full flex justify-center items-center'>
+        <div className='border-2 border-white p-5 rounded-xl w-[300px] md:w-[400px]'>
+          <img src={profile} alt="profile" className='rounded-xl'/>
+        </div>
+      </div>
 
       <div className='absolute xs:bottom-10 
       bottom-32 w-full flex justify-center items-center'>
