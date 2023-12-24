@@ -25,12 +25,12 @@ const Hero = () => {
 
       {/* <ComputersCanvas /> */}
 
-      <div className='absolute xs:bottom-100 
+      {/* <div className='absolute xs:bottom-100 
       bottom-32 w-full flex justify-center items-center'>
         <div className='border-2 border-white border-r-[#915eff] border-t-[#915eff] p-5 rounded-xl w-[300px] md:w-[400px]'>
           <img src={profile} alt="profile" className='rounded-xl'/>
         </div>
-      </div>
+      </div> */}
 
       <div className='absolute xs:bottom-10 
       bottom-32 w-full flex justify-center items-center'>
